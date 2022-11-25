@@ -6,11 +6,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: dotnet-app
+      name: dotnet-app
   template:
     metadata:
       labels:
-        app: dotnet-app
+        name: dotnet-app
     spec:
       containers:
       - name: dotnet-app
